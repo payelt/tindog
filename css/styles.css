@@ -1,0 +1,160 @@
+body {
+  font-family: "Montserrat", sans-serif;
+}
+/* Title Section */
+
+#title {
+  background-color: #ff4c86;
+  color: #fff;
+}
+h1 {
+  font-size: 3.5rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+h2 {
+  font-size: 3rem;
+  font-weight: 900;
+  line-height: 1.5;
+}
+h3 {
+  font-weight: 700;
+}
+p {
+  color: #8f8f8f;
+}
+.container-fluid {
+  padding: 3% 15% 7%;
+}
+.navbar {
+  padding: 0 0 4.5rem;
+}
+.navbar-brand {
+  color: #fff;
+  font-size: 2.5rem;
+  font-family: "Ubuntu";
+}
+.navbar-nav {
+  position: relative;
+  right: 3%;
+}
+.nav-item {
+  padding: 0 25px;
+}
+.nav-link {
+  color: #fff;
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.btn-download {
+  margin: 5% 3% 5% 0;
+}
+.dog-image {
+  position: relative;
+}
+.iphone-dog {
+  width: 50%;
+  transform: rotate(25deg);
+  position: absolute;
+  right: 30%;
+}
+
+/* Feature Section */
+
+#feature {
+  background-color: #fff;
+  text-align: center;
+  padding: 12% 15%;
+  position: relative;
+  z-index: 1;
+}
+.feature-icons {
+  font-size: 90px;
+  color: #ef8172;
+  padding-bottom: 4%;
+}
+.feature-icons:hover {
+  color: #ff4c86;
+}
+.dog-data {
+  padding: 0 5%;
+}
+
+/* Testimonial Section */
+
+#testimonials {
+  text-align: center;
+  background-color: #ef8172;
+  color: #fff;
+}
+.testimonial-data {
+  padding: 7% 15%;
+}
+.testimonial-logo {
+  width: 15%;
+  border-radius: 100%;
+  margin: 5% 0 2%;
+}
+
+/* Press Section */
+
+#press {
+  background-color: #ef8172;
+  text-align: center;
+  padding: 3% 0 7%;
+}
+.press-logo {
+  width: 12%;
+  margin: 0 40px;
+}
+
+/* Pricing Section */
+
+#pricing {
+  text-align: center;
+  padding: 7% 15%;
+}
+.card-details {
+  padding: 3%;
+}
+
+/* CTA Section */
+
+#cta {
+  background-color: #ff4c86;
+  color: #fff;
+  text-align: center;
+  padding: 6% 15%;
+}
+
+/* Footer Section */
+#footer {
+  text-align: center;
+  padding: 4% 15%;
+}
+.social-icon {
+  margin: 20px;
+}
+.footer-text {
+  font-size: 15px;
+  font-weight: 400;
+}
+
+/* Responsive statement */
+
+@media screen and (max-width: 1050) {
+  body {
+    background-color: yellow;
+  }
+  #title {
+    text-align: center;
+  }
+  .iphone-dog {
+    transform: rotate(0);
+    position: static;
+  }
+  #feature {
+    position: static;
+    z-index: 0;
+  }
+}
